@@ -9,6 +9,9 @@ sudo docker start dev-keycloak-mycms
 http://localhost:5436/admin
 
 ### Resources:
-https://www.keycloak.org/getting-started/getting-started-docker
+- [Install Keycloak Docker](https://www.keycloak.org/getting-started/getting-started-docker)
+- [Setup Keycloak](https://www.baeldung.com/spring-boot-keycloak)
 
-https://start.spring.io/#!type=maven-project&language=java&platformVersion=3.1.0&packaging=jar&jvmVersion=11&groupId=com&artifactId=keycloak-playground&name=keycloak-playground&description=Demo%20project%20for%20Spring%20Boot%20Keycloak&packageName=com.keycloak-playground&dependencies=web,oauth2-client,data-jpa,security,oauth2-resource-server
+
+### Spring Initialzr
+- [Springboot Keycloak](https://start.spring.io/#!type=maven-project&language=java&platformVersion=3.1.0&packaging=jar&jvmVersion=11&groupId=com&artifactId=keycloak-playground&name=keycloak-playground&description=Demo%20project%20for%20Spring%20Boot%20Keycloak&packageName=com.keycloak-playground&dependencies=web,oauth2-client,data-jpa,security,oauth2-resource-server)
