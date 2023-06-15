@@ -29,6 +29,11 @@ public class CustomerController {
         return "redirect:/";
     }
 
+    @GetMapping("/randoms")
+    public String randoms() {
+        return "randoms";
+    }
+
     @GetMapping(path = "/customers")
     public String customers(Principal principal, Model model) {
         addCustomers();
